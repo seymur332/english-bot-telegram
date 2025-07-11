@@ -50,7 +50,7 @@ def translate_text(text:str)->str:
 
 
 
-def get_news_text(limit: int = 5) -> str:
+def get_news_text(limit: int = 3) -> str:
    url = "https://feeds.bbci.co.uk/news/rss.xml"
    headers = {"User-Agent": "Mozilla/5.0"}
    req = urllib.request.Request(url, headers=headers)
