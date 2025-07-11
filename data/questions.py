@@ -2,24 +2,24 @@
 
 # Questions, answer variants and correct answers for the quiz
 QUESTIONS = [
-   "I ____ a teacher",
-   "He ____ like basketball",
+   "Prices always ____ before the holidays",
+   "We ____ the train to arrive on time",
    "____ two songs",
-   "I am reading. What ____ you doing?",
-   "____ he go for a walk every evening?",
+   "If it ____ tomorrow, we will cancel the trip",
+   "If I ___ a bird, I would fly around the world",
 ]
 
 
 VARIANTS = [
-   ["am", "are", "is"],
-   ["doesn't", "don't", "didn't"],
+   ["increase", "improve", "compare"],
+   ["achieve", "expect", "suport"],
    ["she have", "she has got", "she is"],
-   ["are", "do", "is"],
-   ["does", "has", "do"],
+   ["rained", "rain", "rains"],
+   ["am", "were", "will be"],
 ]
 
 
-CORRECT = ["am", "doesn't", "she has got", "are", "does"]
+CORRECT = ["increase", "expect", "she has got", "rains", "were"]
 
 
 
