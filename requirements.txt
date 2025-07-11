@@ -1,0 +1,3 @@
+python-telegram-bot==22.2
+certifi>=2023.7.22
+deep-translator==1.11.4
