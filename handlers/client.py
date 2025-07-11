@@ -78,7 +78,7 @@ def get_news_text(limit: int = 3) -> str:
        for item in items[:limit]:
            title = item.findtext("title", default="(Без заголовка)")
            link = item.findtext("link", default="")
-           news_items.append(f"🔹 <b>{title}</b>\n{text}")
+           news_items.append(f"🔹 <b>{title}</b>\n{link}")
 
 
        return "\n\n".join(news_items)
