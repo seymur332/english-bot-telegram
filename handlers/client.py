@@ -22,14 +22,22 @@ import certifi  # обязательно установить: pip install certi
 
 
 PROPOSAL_INCORRECT = [
-   ['play','tenis','likes','he','to'],
-   ['?','doing','are','now','what','you'],
-   ['to','been','have','Paris','never','I']
+   ['lost','my','somewhere','I','keys','house','the','in'],
+   ['the','Please','door','close','quietly'],
+   ['slept','The','cat','on','windowsill','the'],
+   ['in','soccer','played','the','They','schoolyard'],
+   ['cafe','my','forgot','at','I','umbrella','the'],
+   ['jumped','The','cat','the','onto','windowsill'],
+   ['when','saw','He','old','friend','smiled','he','his']
 ]
 PROPOSAL_CORRECT = [
-   ['he','likes','to','play','tenis'],
-   ['what','are','you','doing','now','?'],
-   ['I','have','never','been','to','Paris']
+   ['I','lost','my','keys','somewhere','in','the','house'],
+   ['Please','close','the','door','quietly'],
+   ['The','cat','slept','on','the','windowsill'],
+   ['They','played','soccer','in','the','schoolyard'],
+   ['I','forgot','my','umbrella','at','the','cafe'],
+   ['The','cat','jumped','onto','the','windowsill'],
+   ['He','smiled','when','he','saw','his','old','friend']
 ]
 NEW_WORDS = [
    "apple - яблоко","book-книга","walk-гулять",
